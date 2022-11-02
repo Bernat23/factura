@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <script type="module" src="factura.js"></script>
+    <link rel="stylesheet" href="factura.css">
+</head>
+<body>
+    <label>Num Factura:<p class="num"></p></label>
+    <label>Article:<div class="article"></div><button type="button">+</button></label>
+    <table id="taula" style="width: 80%;">
+        <tr>
+            <th>Codi</th>
+            <th>Nom</th>
+            <th>Quantitat</th>
+            <th>Preu</th>
+            <th>Total</th>
+        </tr>
+    </table>
+    <label>Base imposable:<p class ="preu">0</p></label>
+    <label>IVA:<p class ="preu">0</p></label>
+    <label>Import Total:<p class ="preu">0</p></label>
+    <label>Codi factura:<p class ="preu">0</p></label>
+    <input type="text" class="recuperar"><button class="recuperar">Recuperar</button>
+</body>
+</html>
